@@ -1,0 +1,81 @@
+body{
+	background: url(../img/fondo.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	width: 100%;
+	height: 100%;
+}
+
+.fondo{
+	padding: 1rem 2rem;
+	background-color: rgba(0,78,204,0.5);
+}
+
+.fila-titulo{
+	color: #d7e1f2;
+	border-bottom: 1px solid white;
+	margin-bottom: 1rem;	
+}
+
+.fila-titulo h6{
+	text-align: right;
+}
+
+.fila-contenido{
+	margin-left: 0px !important;
+}
+
+.col-titulo{
+	border-right: 1px solid white;
+}
+
+.col-izq{
+	background-color: #d7e1f2;
+	border-radius: 10px;
+	padding: 1rem 1rem;
+}
+
+.col-formulario{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.col-favoritos{
+	margin-top: 0.5rem;
+}
+
+.col-historial{
+	margin-top: 0.5rem;
+}
+
+.lista-historial{
+	margin-left: 1.5rem;
+}
+
+.img-articulo{
+	width: 100%;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+
+h4{
+	margin: 0px auto;
+}
+
+.subtitulo{
+	color: rgb(0,78,204);
+	font-weight: bold;
+	font-size: 1vw;
+}
+
+textarea{
+	margin: 5px auto;
+}
+
+@media (max-width: 468px){
+	dd{
+		clear: both;
+	}
+}
+

@@ -1,0 +1,103 @@
+body{
+	background-image: url(../img/fondo.jpg);
+	background-size: cover;
+	background-color: rgb(105,240,174);
+	background-repeat: no-repeat;
+	background-position: center center;
+	width: 100%;
+	height: 100%;
+}
+
+.fondo{
+	margin: 0px;
+	background-color: rgba(105,240,174,0.4);
+}
+
+.col-contenido{
+	padding: 0px !important;
+}
+
+.fila-cabecera{
+	padding-top: 0.5rem;
+}
+
+.img-logo{
+	max-height: 120px;
+	border-radius: 10px;	
+}
+
+.img-galeria{
+	max-height: 200px;
+}
+
+.img-galeria-central{
+	max-height: 500px;
+}
+
+.icon-redes{
+	margin: 1rem auto;
+}
+
+
+.col-fotos .row{
+	margin: 0px;
+}
+
+.col-fotos .col{
+	padding: 0px 0.2rem !important;
+}
+
+.col-fotos .col-fotos-izq{
+	text-align: right;
+}
+
+.col-fotos .col-fotos-medio{
+	text-align: center;
+}
+
+.col-fotos .col-fotos-der{
+	text-align: left;
+}
+
+.caja-comentarios{
+	padding: 1rem 0.5rem;
+}
+
+.caja-articulos{
+	padding: 1rem;
+}
+
+.img-articulo{
+	max-height: 260px;
+	margin-top: 0.5rem;
+	margin-right: 1rem;
+}
+
+.caja-articulos .chip{
+	margin: 0.5rem auto;
+}
+
+.caja-articulos p{
+	text-align: justify;
+}
+
+.caja-perfil{
+	text-align: center;
+	padding: 1rem;
+}
+
+.img-autor{
+	max-height: 120px;
+}
+
+@media (max-width: 468px){
+	.col-fotos img{
+		width: 100%;
+	}
+
+	.enlaces{
+		width: 50px;
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+}
